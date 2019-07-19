@@ -1,7 +1,5 @@
-#saikumar
-vowels=['a','e','i','o','u']
-n=input('enter the alphabet:')
-if n in vowels:
+ch=input('enter the alphabet:')
+if ch in ['a','A','e','E','i','I','o','O','u','U']:
     print('vowel')
 else:
     print('consonant')
